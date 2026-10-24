@@ -1,0 +1,29 @@
+# Monkey Image Studio
+
+A browser-based 3D scene sandbox for composing images without needing a full 3D authoring suite.
+
+## Run
+
+Open `index.html` through a local web server or a static hosting service. The app loads Three.js modules from jsDelivr, so an internet connection is required.
+
+## Included in this prototype
+
+- Four-step workflow: Layout, Lights, Focus, Camera
+- Interactive Three.js viewport with orbit, zoom, and pan
+- Built-in starter objects for nature and everyday scenes
+- Local model import for GLB/GLTF, OBJ, and FBX
+- Editable object position and scale
+- Adjustable directional lighting, temperature/color, and shadows
+- Focus-point selection and depth-of-field controls
+- Aspect-ratio presets, rule-of-thirds overlay, and three camera slots
+- PNG/JPG export at selected output dimensions
+
+## Notes and limitations
+
+This is an interactive prototype, not yet a physically based offline path-tracing renderer. The current Render action exports the real-time WebGL viewport at the selected dimensions; it does not provide full ray tracing, denoising, or guaranteed photorealism. OBJ/FBX materials and external texture dependencies may require additional setup. Imported files are processed locally in the browser.
+
+## Tech
+
+- HTML/CSS/JavaScript
+- Three.js
+- WebGL
