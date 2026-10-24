@@ -16,7 +16,8 @@ Open `index.html` through a local web server or a static hosting service. The ap
 - Adjustable directional lighting, temperature/color, and shadows
 - Focus-point selection and cinematic depth-of-field post-processing in the render pipeline
 - Aspect-ratio presets with a matching viewport crop frame, rule-of-thirds overlay, and three camera slots
-- Save/load scene project JSON for built-in objects, camera position, and key lighting/focus settings
+- Save/load scene project JSON for object transforms and serialized object geometry/materials, camera position, and key lighting/focus settings
+- Interactive transform gizmos for moving, rotating, and scaling selected objects
 - PNG/JPG export at selected output dimensions
 
 ## Notes and limitations
