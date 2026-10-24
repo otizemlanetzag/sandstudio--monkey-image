@@ -14,6 +14,7 @@ Open `index.html` through a local web server or a static hosting service. The ap
 - Local model import for GLB/GLTF, OBJ, and FBX
 - Editable object position and scale
 - Adjustable directional lighting, temperature/color, and shadows
+- Soft contact-shadow decals under built-in assets to visually ground objects on the terrain
 - Focus-point selection and cinematic depth-of-field post-processing in the render pipeline
 - Aspect-ratio presets with a matching viewport crop frame, rule-of-thirds overlay, and three camera slots
 - Save/load scene project JSON for object transforms and serialized object geometry/materials, camera position, saved camera slots, and lighting/focus/composition settings
