@@ -10,7 +10,7 @@ Open `index.html` through a local web server or a static hosting service. The ap
 
 - Four-step workflow: Layout, Lights, Focus, Camera
 - Interactive Three.js viewport with orbit, zoom, and pan
-- Built-in starter objects for nature and everyday scenes
+- Built-in starter objects for nature and everyday scenes, with drag-and-drop placement directly into the viewport
 - Local model import for GLB/GLTF, OBJ, and FBX
 - Editable object position and scale
 - Adjustable directional lighting, temperature/color, and shadows
